@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+.container{
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.btn-primary{
+    padding: 15px 28px;
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+section{
+    margin-top: 100px;
+}
+
+.banner{
+    background-image: url('../images/banner-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    /* margin: 130px 0; */
+}
+.banner-text{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.banner-sub-title{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.banner-title{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.offer{
+    max-width: 800px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+.offer-content-text{
+    margin-bottom: 30px;
+}
+.holiday-deal{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FF0000;
+}
+.categoties{
+    font-size: 40px;
+    font-weight: 700;
+    color: #070211;
+}
+
+
+.party-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/Vectorrr.png');
+    /* background: linear-gradient(to right, rgba(54, 49, 49, 0.03),rgba(255, 0, 0, 0.187)); */
+    background-repeat: no-repeat;
+}
+.party-text{
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.party-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.party-text p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+/* .btn-party{
+    padding-right: 30px;
+} */
+.party-img{
+    padding-right: 80px;
+}
+.party-img img{
+    padding: 20px 0;
+}
+
+
+
+.vanue{
+    background-color: rgba(255, 0, 0, 0.05);
+    background: linear-gradient(to bottom, rgba(255,0,0,0.1),rgba(192, 182, 182, 0.04));
+    
+}
+.vanue-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.vanue-text h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.vanue-text .important{
+    color: #FF0000;
+}
+.btn-join{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.galary-text{
+    width: 50%;
+}
+.galary-sub-title{
+    font-size: 20px;
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+.galary-title{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.galary-description{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.galary-images{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.galary-images img{
+    width: 380px;
+    height: 400px;
+}
+
+
+.newsletter-main{
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section-heading p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 20px;
+    outline: none;
+}
+.btn-newsletter{
+    border-radius: 0px 25px 25px 0px;
+}
+
+#footer{
+    background-color: #070211;
+    margin-top: 100px;
+    color: #fff;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 50px 70px 30px 50px;
+    line-height: 2rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icon img{
+    width: 50px;
+}
+hr{
+    margin: 30px 0;
+    border:1px solid rgba(255, 255, 255, 0.15);
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 80px 30px;
+    font-size: 18px;
+}
